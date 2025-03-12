@@ -18,7 +18,6 @@ int main() {
 
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
-    
     // Cadastro das Cartas:
     // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
     // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
@@ -57,15 +56,7 @@ int main() {
     printf("\n"); //comando para pular linha e melhorar a organização//
 
 
-    printf("carta 1:\n"); //impressão com saída "carta 1"//
-    printf("Estado: %s\n", A); //impressão com saída do nome do estado//
-    printf("Código: %s\n", A01); //impressão com saída do código da carta//
-    printf("Nome da Cidade: %s\n", cidade1); //impressão com saída do nome da cidade//
-    printf("População: %d\n", Populacao); //impressão com saída da população//
-    printf("Área: %f km²\n", Area); //impressão com saída da área; acrescentei a unidade depois da variável para sais na impressão//
-    printf("PIB: %f bilhões de reais\n", PIB); //impressão com saída do valor do PIB; acrescentei a unidade depois da variável para sais na impressão//
-    printf("Número de Pontos Turísticos: %d\n", Numero_de_pontos_turisticos); //impressão com saída dos pontos turísticos//
-    printf("\n"); //comando para melhorar organização - pular linha//
+    printf("CARTA 2 \n");
 
 
     printf("Digite o nome do Estado: \n"); //início da sequência referente à carta 2 - repetiçao de códigos//
@@ -95,6 +86,16 @@ int main() {
     printf("Digite o número de pontos turísticos do município: \n");
     scanf("%d", &Numero_de_pontos_turisticos);
     printf("\n");
+
+    printf("carta 1:\n"); //impressão com saída "carta 1"//
+    printf("Estado: %s\n", A); //impressão com saída do nome do estado//
+    printf("Código: %s\n", A01); //impressão com saída do código da carta//
+    printf("Nome da Cidade: %s\n", cidade1); //impressão com saída do nome da cidade//
+    printf("População: %d\n", Populacao); //impressão com saída da população//
+    printf("Área: %f km²\n", Area); //impressão com saída da área; acrescentei a unidade depois da variável para sais na impressão//
+    printf("PIB: %f bilhões de reais\n", PIB); //impressão com saída do valor do PIB; acrescentei a unidade depois da variável para sais na impressão//
+    printf("Número de Pontos Turísticos: %d\n", Numero_de_pontos_turisticos); //impressão com saída dos pontos turísticos//
+    printf("\n"); //comando para melhorar organização - pular linha//
 
 
     printf("carta 2:\n");
