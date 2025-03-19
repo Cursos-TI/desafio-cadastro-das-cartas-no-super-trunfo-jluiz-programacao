@@ -129,8 +129,15 @@ int  main(){
     printf("PIB per capta: %.2f\n", PIBpercapta2);
     printf("\n\n");
     
+    //Determinar carta vencedora utilizando if e if-else
 
-  
+    printf("Carta 1 = %s: = %d\n ", cidade1, populacao1);
+    printf("Carta 2 = %s: = %d\n\n ", cidade2, populacao2);
+
+    if(populacao1 > populacao2) {
+        printf("Carta 1 (Cajazeiras) Venceu! \n");
+    } else {
+        printf("Carta 2 (Icó) venceu! \n");
 
 
     return 0;
