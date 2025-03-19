@@ -12,7 +12,7 @@
 int  main(){
         char estado1[40], estado2[40]; 
         char codigo1[40], codigo2[10]; 
-        char cidade1[10], cidade2[10]; 
+        char cidade1[20], cidade2[20]; 
         int populacao1, populacao2; 
         float area1, area2; 
         float PIB1, PIB2;
@@ -132,13 +132,13 @@ int  main(){
     //Determinar carta vencedora utilizando if e if-else
 
     printf("Carta 1 = %s: = %d\n ", cidade1, populacao1);
-    printf("Carta 2 = %s: = %d\n\n ", cidade2, populacao2);
+    printf("Carta 2 = %s: = %d\n ", cidade2, populacao2);
 
     if(populacao1 > populacao2) {
-        printf("Carta 1 (Cajazeiras) Venceu! \n");
+        printf("Carta 1 (%s) Venceu! \n", cidade1);
     } else {
-        printf("Carta 2 (Icó) venceu! \n");
-
+        printf("Carta 2 (%s) venceu! \n", cidade2);
+    }
 
     return 0;
 }
